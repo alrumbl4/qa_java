@@ -2,8 +2,10 @@ package com.example;
 
 import java.util.List;
 
+//Создали класс "Животное"
 public class Animal {
 
+    //Создали метод getFood, который принимает на вход строковую переменную animalKind и возвращает список значений
     public List<String> getFood(String animalKind) throws Exception {
         if ("Травоядное".equals(animalKind)) {
             return List.of("Трава", "Различные растения");
